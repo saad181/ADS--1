@@ -15,10 +15,10 @@ public class Solution {
 		for (int i = 0; i < arraysize; i++) {
 			j = i + 1;
 			k = arraysize - 1;
-			while(j < k) {
-				if(array[i] + array[j] + array[k] < 0) {
+			while (j < k) {
+				if (array[i] + array[j] + array[k] < 0) {
 					j += 1;
-				} else if(array[i] + array[j] + array[k] > 0) {
+				} else if (array[i] + array[j] + array[k] > 0) {
 					k -= 1;
 				} else {
 					j += 1;
