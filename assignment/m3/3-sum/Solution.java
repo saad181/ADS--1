@@ -23,7 +23,7 @@ public class Solution {
 				} else {
 					j += 1;
 					k -= 1;
-					count = 1;
+					count += 1;
 				}
 			}
 		}
