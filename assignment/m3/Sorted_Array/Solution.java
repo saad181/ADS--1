@@ -40,7 +40,7 @@ class Arraymerge {
     System.out.print(c[p]);
 
     }
-    for(p=0; p < k - 1; p++) {
+    for (p=0; p < k - 1; p++) {
         System.out.print(e[p] + ",");
     }
     System.out.print(e[p]);
@@ -60,8 +60,8 @@ final class Solution {
 */
     public static void main(final String[] args) {
         Arraymerge two = new Arraymerge();
-        Scanner s=new Scanner(System.in);
-        int size1=s.nextInt();
+        Scanner s = new Scanner(System.in);
+        int size1 = s.nextInt();
         int size2 = s.nextInt();
         int[] intarray1 = new int[size1];
         int[] intarray2 = new int[size2];
