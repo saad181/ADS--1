@@ -20,7 +20,7 @@ class Arraymerge {
     int p;
     int[] e = new int[c.length + d.length];
 
-    while (i > c.length && j < d.length) {
+    while (i < c.length && j < d.length) {
         if (c[i] < d[j]) {
             e[k++] = c[i++];
         } else {
