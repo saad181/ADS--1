@@ -1,7 +1,16 @@
 import java.util.Scanner;
 import java.util.Arrays;
 public class Solution {
+	/**
+	 *  args.
+	 *
+	 * @param      args  The arguments
+	 **/
 	public static void main(String[] args) {
+	/**
+	 * 
+	 *{ var_description }
+	 **/
 		Scanner scan = new Scanner(System.in);
 		int arraysize = scan.nextInt();
 		int[] array = new int[arraysize];
@@ -10,8 +19,8 @@ public class Solution {
 			array[i] = scan.nextInt();
 		}
 		Arrays.sort(array);
-		int j=0;
-		int k=0;
+		int j = 0;
+		int k = 0;
 		for (int i = 0; i < arraysize; i++) {
 			j = i + 1;
 			k = arraysize - 1;
