@@ -15,7 +15,7 @@ class Arraymerge {
 */
     public void merge(final int[] c, final int[] d) {
     int i = 0,
-     j = 0, 
+     j = 0,
      k = 0;
     int p;
     int[] e = new int[c.length + d.length];
@@ -33,14 +33,14 @@ class Arraymerge {
     while (j < d.length) {
         e[k++] = d[j++];
     }
-    while(c.length== 0) {
+    while (c.length == 0) {
         for (p = 0; p < c.length; p++) {
         System.out.print(c[p] + ",");
     }
     System.out.print(c[p]);
 
     }
-    for (p=0; p < k - 1; p++) {
+    for (p = 0; p < k - 1; p++) {
         System.out.print(e[p] + ",");
     }
     System.out.print(e[p]);
