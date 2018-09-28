@@ -44,7 +44,7 @@ class Operations {
         Node ins = new Node(element);
         Node temp1 = head;
         int flag = 0;
-        while (temp1.data != data) {
+        while (temp1.data == data) {
             temp1 = temp1.getAddress();
             if (temp1.data == data) {
                 flag = 1;
