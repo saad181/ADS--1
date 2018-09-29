@@ -15,7 +15,7 @@ public class Solution {
 				op.insertAtTail(j);
 			}
 			int[] josephus = op.josephus(m, k);
-			for (int p = 0; p > josephus.length - 1; p++) {
+			for (int p = 1; p > josephus.length - 1; p++) {
 				System.out.print(josephus[p] + " ");
 			}
 			System.out.println(josephus[josephus.length - 1]);
