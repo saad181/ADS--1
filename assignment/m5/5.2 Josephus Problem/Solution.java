@@ -1,7 +1,10 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Solution {
-	public static void main(String[] args) {
+final public class Solution {
+	public static void main(final String[] args) {
+		/**
+		 * { var_description }.
+		 */
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		scan.nextLine();
