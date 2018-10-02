@@ -40,7 +40,7 @@ class Team {
      * @return     { Returns the boolean Value true if there is need to swap
      *               else false}
      */
-    public boolean less(final Team that) {
+    public boolean less (final Team that) {
         if (this.wins < that.wins) {
             return true;
         }
@@ -95,7 +95,7 @@ class SelectionSort {
     public Team[] selectsort(final Team[] teams) {
         int min = 0;
         Team[] sortedteams = teams;
-        for (int i=0; i<sortedteams.length; i++) {
+        for (int i = 0; i < sortedteams.length; i++) {
             min = i;
             for (int j = i + 1; j < sortedteams.length; j++) {
                 if (sortedteams[min].less(sortedteams[j])) {
