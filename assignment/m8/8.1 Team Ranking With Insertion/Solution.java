@@ -99,7 +99,7 @@ class SelectionSort {
             min = i;
             for (int j = i + 1; j < sortedteams.length; j++) {
                 if (sortedteams[min].less(sortedteams[j])) {
-                    min=j;
+                    min = j;
                 }
             }
             sortedteams = exchange(sortedteams, min, i);
@@ -205,10 +205,11 @@ public final class Solution {
         LeadBoard cricketobj = new LeadBoard();
         Scanner scan = new Scanner(System.in);
         String[] info = null;
+        int three = 3;
         while (scan.hasNext()) {
             info = scan.nextLine().split(",");
             cricketobj.addTeam(new Team(info[0], Integer.parseInt(info[1]),
-                Integer.parseInt(info[2]), Integer.parseInt(info[3])));
+                Integer.parseInt(info[2]), Integer.parseInt(info[three])));
         }
         cricketobj.print();
     }
