@@ -31,7 +31,6 @@ class Team {
     Team (final String team, final int won, final int loss, final int draw) {
         name = team; wins = won;  losses = loss; draws = draw;
         }
-
     /**
      * Method to check which value of Team is higher is lower.
      *
