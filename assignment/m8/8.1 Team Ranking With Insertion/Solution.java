@@ -41,7 +41,7 @@ class Team {
      *               else false}
      */
     public boolean less(final Team that) {
-        if (this.wins > that.wins) {
+        if (this.wins < that.wins) {
             return true;
         }
         if (this.wins < that.wins) {
