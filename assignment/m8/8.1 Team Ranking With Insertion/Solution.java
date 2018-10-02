@@ -204,7 +204,7 @@ public final class Solution {
         LeadBoard cricketobj = new LeadBoard();
         Scanner scan = new Scanner(System.in);
         String[] info = null;
-        int three = 3;
+        final int three = 3;
         while (scan.hasNext()) {
             info = scan.nextLine().split(",");
             cricketobj.addTeam(new Team(info[0], Integer.parseInt(info[1]),
