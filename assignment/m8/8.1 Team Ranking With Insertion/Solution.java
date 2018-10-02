@@ -28,7 +28,7 @@ class Team {
      * @param      loss  The lost
      * @param      draw  The draw
      **/
-    Team ( final String team, final int won, final int loss, final int draw) {
+    Team(final String team, final int won, final int loss, final int draw) {
         name = team; wins = won;  losses = loss; draws = draw;
         }
     /**
@@ -39,7 +39,7 @@ class Team {
      * @return     { Returns the boolean Value true if there is need to swap
      *               else false}
      **/
-    public boolean less ( final Team that) {
+    public boolean less(final Team that) {
         if (this.wins < that.wins) {
             return true;
         }
