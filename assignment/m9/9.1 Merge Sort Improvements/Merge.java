@@ -57,7 +57,7 @@ class Merge {
             System.out.println("Insertion sort method invoked...");
             return;
         }
-        int mid=lo - (hi - lo) / 2;
+        int mid=lo + (hi - lo) / 2;
         sort(aux, array, lo, mid);
         sort(aux, array, mid + 1, hi);
 
