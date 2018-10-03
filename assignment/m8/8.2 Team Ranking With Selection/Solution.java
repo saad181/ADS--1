@@ -49,7 +49,7 @@ class Team {
         if(this.wins > that.wins) {
             return -1;
         } else {
-            if (this.losses > that.losses) {
+            if (this.losses < that.losses) {
                 return -1;
             }
             if(this.losses > that.losses) {
