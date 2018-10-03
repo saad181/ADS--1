@@ -25,7 +25,7 @@ class Team {
      *
      * @param      team  The team
      * @param      won   The won
-     * @param      lost  The lost
+     * @param      loss  The lost
      * @param      draw  The draw
      */
     Team(final String team, final int won, final int loss, final int draw) {
@@ -52,7 +52,7 @@ class Team {
             if (this.losses < that.losses) {
                 return -1;
             }
-            if(this.losses > that.losses) {
+            if (this.losses > that.losses) {
                 return 1;
             } else {
                 if (this.draws < that.draws) {
@@ -159,7 +159,7 @@ class InsertionSort {
      *
      * @return     { It returns Sorted Object Array }.
      */
-    public Team [] sorting(final Team [] teams) {
+    public Team[] sorting(final Team[] teams) {
         int j = 0;
         for (int i = 1; i < teams.length; i++) {
             Team team = teams[i];
