@@ -43,7 +43,7 @@ class Team {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final Team that) {
-        if(this.wins > that.wins) {
+        if(this.wins < that.wins) {
             return 1;
         }
         if(this.wins < that.wins) {
