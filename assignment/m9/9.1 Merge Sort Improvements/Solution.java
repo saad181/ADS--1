@@ -13,7 +13,7 @@ final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Merge m=new Merge();
+        Merge m = new Merge();
         Scanner s=new Scanner(System.in);
         while (s.hasNextLine()) {
             String tokens = s.nextLine();
