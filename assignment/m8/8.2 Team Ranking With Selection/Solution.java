@@ -28,7 +28,7 @@ class Team {
      * @param      lost  The lost
      * @param      draw  The draw
      */
-    Team (final String team, final int won, final int loss, final int draw) {
+    Team(final String team, final int won, final int loss, final int draw) {
         name = team;
         wins = won;
         losses = loss;
@@ -43,10 +43,10 @@ class Team {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final Team that) {
-        if(this.wins < that.wins) {
+        if (this.wins < that.wins) {
             return 1;
         }
-        if(this.wins > that.wins) {
+        if (this.wins > that.wins) {
             return -1;
         } else {
             if (this.losses < that.losses) {
@@ -55,10 +55,10 @@ class Team {
             if(this.losses > that.losses) {
                 return 1;
             } else {
-                if(this.draws < that.draws) {
+                if (this.draws < that.draws) {
                     return 1;
                 }
-                if(this.draws > that.draws) {
+                if (this.draws > that.draws) {
                     return -1;
                 }
             }
@@ -127,7 +127,7 @@ class LeadBoard {
      * Complexity of Print Method is O(N) it depends upon Size of Array.
      */
     public void print() {
-        Team [] sortedteams = sorted.sorting(teams);
+        Team[] sortedteams = sorted.sorting(teams);
         for (int i = 0; i < size - 1; i++) {
             System.out.print(sortedteams[i].getName() + ",");
         }
@@ -201,7 +201,7 @@ public final class Solution {
         String[] info = null;
         while (scan.hasNext()) {
             info = scan.nextLine().split(",");
-           Team team = new Team (info[0], Integer.parseInt(info[1]),
+           Team team = new Team(info[0], Integer.parseInt(info[1]),
                 Integer.parseInt(info[2]), Integer.parseInt(info[2 + 1]));
 
 
