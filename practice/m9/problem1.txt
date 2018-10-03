@@ -1,0 +1,16 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
+A)
+   There are 12 elements in the word . It is divided into half i.e 6 elements and 
+   6 elements
+   E A S Y Q U                                            E S T I O N 
+   Again it is divided to half                          Again it is divided to half
+   E A S   Y Q U                                          E S T    I O N
+   Again it is divided to half                          Again it is divided to half
+   E A   S    Y Q   U                                     E S   T      I O   N
+   Then it is sorted                                    Then it is sorted
+   A E   S    Q U   Y                                     E S   T      I N   O
+   Again these 2 are sorted                             Again these 2 are sorted
+   A E Q S U Y                                            E I N O S T
+                 Now these 2 subarrays are merged to form a resultant array
+
+                 A E E I N O Q S S T U Y  - This is the merge sort array
