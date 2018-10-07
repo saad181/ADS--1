@@ -132,7 +132,7 @@ class QuickSort {
                     break;
                 }
             }
-            if(i >= j) {
+            if (i >= j) {
                 break;
             }
             exchange(a, i, j);
