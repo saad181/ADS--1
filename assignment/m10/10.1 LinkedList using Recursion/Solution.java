@@ -153,7 +153,7 @@ class LinkedListRec {
         after = current.getNext();
         current.setNext(before);
         before = current;
-        if (after != null) {
+        if (after == null) {
             head = current;
             before = null;
             return;
