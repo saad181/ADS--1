@@ -128,7 +128,7 @@ class QuickSort {
             }
             while (less(a[k], a[j])) {
                 j--;
-                if(j == low) {
+                if (j == low) {
                     break;
                 }
             }
