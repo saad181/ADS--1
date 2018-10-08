@@ -80,7 +80,7 @@ final class Solution {
 class Priority<E extends Comparable<E>> {
     /**
      * @param array array is stored in array.
-     * 
+     *
      **/
     private E[] array;
     /**
