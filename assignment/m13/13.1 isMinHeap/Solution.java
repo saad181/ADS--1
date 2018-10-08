@@ -79,7 +79,7 @@ final class Solution {
  */
 class Priority<E extends Comparable<E>> {
     /**
-     * array.
+     * @param array array is stored in array
      **/
     private E[] array;
     private int size;
@@ -108,7 +108,7 @@ class Priority<E extends Comparable<E>> {
         return true;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      i     { parameter_description }
      * @param      j     { parameter_description }
