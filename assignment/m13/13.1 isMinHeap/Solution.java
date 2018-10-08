@@ -85,7 +85,7 @@ class Priority<E extends Comparable<E>> {
     private E[] array;
     /**
      * @param size size.
-     */
+     **/
     private int size;
     /**
      * Constructs the object.
