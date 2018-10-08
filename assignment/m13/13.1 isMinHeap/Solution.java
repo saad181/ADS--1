@@ -79,7 +79,8 @@ final class Solution {
  */
 class Priority<E extends Comparable<E>> {
     /**
-     * @param array array is stored in array
+     * @param array array is stored in array.
+     * @param size size.
      **/
     private E[] array;
     private int size;
