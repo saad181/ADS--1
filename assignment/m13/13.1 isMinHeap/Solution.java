@@ -100,7 +100,7 @@ class Priority<E extends Comparable<E>> {
         for (int i = 1; i < array.length; i++) {
             if (2 * i < array.length && greater(2 * i, i)) {
                 return false;
-            } 
+            }
             if ((2 * i) + 1 < array.length && greater(2 * i + 1, i)) {
                 return false;
             }
@@ -114,8 +114,8 @@ class Priority<E extends Comparable<E>> {
      * @param      j     { parameter_description }
      *
      * @return     { description_of_the_return_value }
-     */
-    public boolean greater(int i, int j) {
+     **/
+    public boolean greater(final int i, final int j) {
         return array[i].compareTo(array[j]) < 0;
     }
 }

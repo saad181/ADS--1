@@ -1,9 +1,6 @@
 Starting audit...
 [ERROR] F:\MSIT\ADS-1\assignment\m13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\ADS-1\assignment\m13\13.1 isMinHeap\Solution.java:85:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\ADS-1\assignment\m13\13.1 isMinHeap\Solution.java:103: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\MSIT\ADS-1\assignment\m13\13.1 isMinHeap\Solution.java:110: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\MSIT\ADS-1\assignment\m13\13.1 isMinHeap\Solution.java:118:28: Parameter i should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS-1\assignment\m13\13.1 isMinHeap\Solution.java:118:35: Parameter j should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 3 errors.
