@@ -80,14 +80,14 @@ final class Solution {
 class Priority<E extends Comparable<E>> {
     /**
      * array.
-     */
+     **/
     private E[] array;
     private int size;
     /**
      * Constructs the object.
      *
      * @param      a     { parameter_description }
-     */
+     **/
     Priority(final E[] a) {
         this.array = a;
     }
@@ -98,9 +98,10 @@ class Priority<E extends Comparable<E>> {
      */
     public boolean isminHeap() {
         for (int i = 1; i < array.length; i++) {
-            if (2 * i < array.length && greater(2 * i,i)) {
+            if (2 * i < array.length && greater(2 * i, i)) {
                 return false;
-            } if ((2 * i) + 1 < array.length && greater(2 * i+1,i)) {
+            } 
+            if ((2 * i) + 1 < array.length && greater(2 * i + 1, i)) {
                 return false;
             }
         }
@@ -114,7 +115,7 @@ class Priority<E extends Comparable<E>> {
      *
      * @return     { description_of_the_return_value }
      */
-    public boolean greater (int i, int j) {
+    public boolean greater(int i, int j) {
         return array[i].compareTo(array[j]) < 0;
     }
 }
