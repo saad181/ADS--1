@@ -97,7 +97,7 @@ class Priority<E extends Comparable<E>> {
         this.array = a;
     }
     /**
-     *Complexity for Insertion Sort is O(N).
+     *Complexity for min heap is O(N).
      *The for loop iterates N times.
      * function_description.
      *
