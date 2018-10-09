@@ -73,6 +73,7 @@ final class Solution {
     }
 }
 /**
+ *
  * Class for priority.
  *
  * @param      <E>   { parameter_description }
@@ -96,6 +97,8 @@ class Priority<E extends Comparable<E>> {
         this.array = a;
     }
     /**
+     *Complexity for Insertion Sort is O(N).
+     *The for loop iterates N times.
      * function_description.
      *
      * @return     { description_of_the_return_value }
