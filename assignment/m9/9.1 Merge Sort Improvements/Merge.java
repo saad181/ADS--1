@@ -12,6 +12,12 @@ class Merge {
     Merge() { }
     /**
      * function_description.
+     * merge method is to merge the array of elements using Merge..
+     * The Complexity is O(NlogN).
+     * It divides the array into two array each time.
+     * This makes the logN.
+     * It iterates through the for loop for N times.
+     * This total makes NlogN.
      *
      * @param      array     The array
      * @param      aux      The newarray
@@ -44,6 +50,11 @@ class Merge {
     }
     /**
      * function_description.
+     * This Method sorts the elements using Insertion Sort.
+     * The Complexity of Insertion Sort is O(N^2).
+     * It has Nested for loops.
+     * It iterates through the array N^2 times.
+     * The worst case complexity is O(N^2).
      *
      * @param      array     The array
      * @param      aux     The newarray
@@ -81,6 +92,10 @@ class Merge {
         sort(aux, a, 0, a.length - 1);
         assert isSorted(a);
     }
+    // Comparable[] aux = new Comparable[a.length];
+    //     for(int i = 0; i< aux.length; i++) {
+    //         aux[i] = a[i];
+    //     }
     /**
      * function_description.
      *
