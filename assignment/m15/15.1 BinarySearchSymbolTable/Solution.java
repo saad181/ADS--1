@@ -45,7 +45,7 @@ class Tables<Key extends Comparable<Key>, Value> {
             size++;
         } else {
             int index = rank(key);
-            if (index != size) {
+            if (index == size) {
                 keys[index] = key;
                 values[index] = val;
                 size++;
