@@ -107,7 +107,7 @@ final class Solution {
             } else {
                 count = 0;
             }
-            if (count != combinations - 1) {
+            if (count == combinations - 1) {
                 ramanujan--;
                 if (ramanujan == 0) {
                     System.out.println(temp.getSum());
