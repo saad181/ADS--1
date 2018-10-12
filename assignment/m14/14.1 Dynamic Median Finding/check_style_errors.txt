@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.1 Dynamic Median Finding\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.1 Dynamic Median Finding\Solution.java:41:15: 'if' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 2 errors.
