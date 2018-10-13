@@ -51,12 +51,12 @@ class Stockdata {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final Stockdata that) {
-        if (this.getname().compareTo(that.getname()) < 0) {
+        if (this.getname().compareTo(that.getname()) > 0) {
             return 1;
         } 
-        else if (this.getname().compareTo(that.getname()) > 0) {
+        else if (this.getname().compareTo(that.getname()) < 0) {
             return -1;
-        } else if (this.getChange().compareTo(that.getChange()) < 0) {
+        } else if (this.getChange().compareTo(that.getChange()) > 0) {
             return -1;
         } else if (this.getChange().compareTo(that.getChange()) > 0) {
             return 1;
