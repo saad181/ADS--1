@@ -59,7 +59,7 @@ class Stockdata {
         } else if (this.getChange().compareTo(that.getChange()) < 0) {
             return -1;
         } else if (this.getChange().compareTo(that.getChange()) > 0) {
-            return 1;
+            return 0;
         } else {
             return 0;
         }
