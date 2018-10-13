@@ -58,7 +58,7 @@ class Stockdata {
             return -1;
         } else if (this.getChange().compareTo(that.getChange()) < 0) {
             return -1;
-        } else if (this.getChange().compareTo(that.getChange()) < 0) {
+        } else if (this.getChange().compareTo(that.getChange()) > 0) {
             return 1;
         } else {
             return 0;
@@ -82,8 +82,8 @@ final class Solution {
         BST<String, Integer> bs = new BST<String, Integer>();
         int n = sc.nextInt();
         for (int i = 1; i <= (six * n); i++) {
-            String str = sc.nextLine();
-            String[] tokens = str.split(",");
+            String s = sc.nextLine();
+            String[] tokens = s.split(",");
             Stockdata stock = new Stockdata(tokens[0],
                 Float.parseFloat(tokens[1]));
         }
