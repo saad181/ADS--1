@@ -32,7 +32,7 @@ class Stockdata {
      *
      * @return     { description_of_the_return_value }
      */
-    public String getname() {
+    public String getName() {
         return this.stockname;
     }
     /**
@@ -51,10 +51,10 @@ class Stockdata {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final Stockdata that) {
-        if (this.getname().compareTo(that.getname()) > 0) {
+        if (this.getName().compareTo(that.getName()) > 0) {
             return 1;
         } 
-        else if (this.getname().compareTo(that.getname()) < 0) {
+        else if (this.getName().compareTo(that.getName()) < 0) {
             return -1;
         } else if (this.getChange().compareTo(that.getChange()) < 0) {
             return -1;
@@ -79,7 +79,7 @@ final class Solution {
         try {
             final int six = 6;
             Scanner sc = new Scanner(System.in);
-        BST<String, Integer> bs = new BST<String, Integer>();
+        BST<String, Integer> bst = new BST<String, Integer>();
         int n = sc.nextInt();
         for (int i = 1; i <= (six * n); i++) {
             String s = sc.nextLine();
@@ -96,17 +96,17 @@ final class Solution {
                     case "get":
                     switch (tokens1[1]) {
                         case "minST":
-                        bs.minST(tokens1[2]);
+                        bst.minST(tokens1[2]);
                         break;
                         case "maxST":
-                        bs.maxST(tokens1[2]);
+                        bst.maxST(tokens1[2]);
                         break;
                         default:
                         break;
                     }
                     break;
                     case "intersection":
-                    System.out.println(bs.intersection());
+                    System.out.println(bst.intersection());
                     break;
                     default:
                     break;
