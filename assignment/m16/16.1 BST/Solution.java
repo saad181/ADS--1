@@ -99,7 +99,7 @@ class Book {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final Book that) {
-        if (this.getname().compareTo(that.getname()) < 0) {
+        if (this.getname().compareTo(that.getname()) > 0) {
             return 1;
         } else if(this.getname().compareTo(that.getname()) > 0) {
             return -1;
