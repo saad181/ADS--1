@@ -1,0 +1,7 @@
+Starting audit...
+[ERROR] F:\MSIT\ADS-1\assignment\m7\7.1 Steque\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\MSIT\ADS-1\assignment\m7\7.1 Steque\Solution.java:71:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\assignment\m7\7.1 Steque\Solution.java:92:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\assignment\m7\7.1 Steque\Solution.java:124:11: 'if' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 4 errors.
