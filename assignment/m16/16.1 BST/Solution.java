@@ -101,9 +101,9 @@ class Book {
     public int compareTo(final Book that) {
         if (this.getname().compareTo(that.getname()) > 0) {
             return 1;
-        } else if(this.getname().compareTo(that.getname()) < 0) {
+        } else if (this.getname().compareTo(that.getname()) < 0) {
             return -1;
-        } else if(this.getauthor().compareTo(that.getauthor()) < 0) {
+        } else if (this.getauthor().compareTo(that.getauthor()) < 0) {
             return -1;
         } else if (this.getauthor().compareTo(that.getauthor()) > 0) {
             return 1;
