@@ -68,7 +68,7 @@ class Steque {
      */
     public void enqueue(final int value) {
         Node temp = new Node();
-        if(tail == null || head == null) {
+        if (tail == null || head == null) {
             temp.value = value;
             temp.next = null;
             head = temp;
