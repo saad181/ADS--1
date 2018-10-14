@@ -109,7 +109,7 @@ class Book {
             return 1;
         } else if (this.getprice() < that.getprice()) {
             return 1;
-        } else if (this.getprice() < that.getprice()) {
+        } else if (this.getprice() > that.getprice()) {
             return -1;
         } else {
             return 0;
