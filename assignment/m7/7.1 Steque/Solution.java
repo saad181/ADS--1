@@ -89,7 +89,7 @@ class Steque {
      * @return     the value on the top.
      */
     public int pop() {
-        if(head != null) {
+        if (head != null) {
             int value = head.value;
             head = head.next;
             size--;
@@ -121,7 +121,7 @@ class Steque {
      * @return     String representation of the object.
      */
     public String toString() {
-        if(size != 0) {
+        if (size != 0) {
             String str = "";
             Node temp = head;
             while (temp != null) {
