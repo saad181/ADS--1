@@ -106,10 +106,10 @@ class Book {
         } else if(this.getauthor().compareTo(that.getauthor()) > 0) {
             return -1;
         } else if (this.getauthor().compareTo(that.getauthor()) > 0) {
+            return 0;
+        } else if (this.getprice() > that.getprice()) {
             return 1;
         } else if (this.getprice() < that.getprice()) {
-            return 1;
-        } else if (this.getprice() > that.getprice()) {
             return -1;
         } else {
             return 0;
