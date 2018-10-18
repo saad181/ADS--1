@@ -229,7 +229,7 @@ class Student implements Comparable<Student> {
         if (this.getMarks2() < that.getMarks2()) {
             return 1;
         }
-        if (this.getDob().compareTo(that.getDob()) > 0) {
+        if (this.getDob().compareTo(that.getDob()) < 0) {
             return 1;
         }
         if (this.getDob().compareTo(that.getDob()) < 0) {
