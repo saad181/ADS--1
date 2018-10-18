@@ -99,10 +99,10 @@ class Student implements Comparable<Student> {
     /**
      * sets the student's total marks.
      *
-     * @param      m     totalmarks.
+     * @param      total     totalmarks.
      **/
-    public void setTotalmarks(final int m) {
-        this.totalmarks = m;
+    public void setTotalmarks(final int total) {
+        this.totalmarks = total;
     }
 
     /**
