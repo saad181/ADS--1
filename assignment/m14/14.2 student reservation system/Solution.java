@@ -4,42 +4,42 @@ import java.text.SimpleDateFormat;
 class Student implements Comparable<Student> {
     /**
      * student name variable.
-     */
+     **/
     private String studentName;
     /**
      * date variable.
-     */
+     **/
     private Date dob;
     /**
      * for marks1 variable.
-     */
+     **/
     private int marks1;
     /**
      * for marks2 variable.
-     */
+     **/
     private int marks2;
     /**
      * for mark3 variable.
-     */
+     **/
     private int marks3;
     /**
      * for total marks variable.
-     */
+     **/
     private int totalmarks;
     /**
      * for reservation variable.
-     */
+     **/
     private String reservationcategory;
     /**
      * Seats allocated variable.
-     */
+     **/
     private boolean alloted;
     /**
      * retursc true, if the student is already alloted,
      * otherwise false.
      *
      * @return true if alloted, otherwise false.
-     */
+     **/
     public boolean getAlloted() {
         return alloted;
     }
@@ -48,7 +48,7 @@ class Student implements Comparable<Student> {
      * Changes the alloted status to true once the allotment is done.
      *
      * @param      allotment  should be either true or false.
-     */
+     **/
     public void setAlloted(final boolean allotment) {
         this.alloted = allotment;
     }
@@ -56,7 +56,7 @@ class Student implements Comparable<Student> {
     /**
      * Gets the data of birth.
      * @return date of birth.
-     */
+     **/
     public Date getDob() {
         return dob;
     }
@@ -74,7 +74,7 @@ class Student implements Comparable<Student> {
      * gets the date of birth.
      *
      * @return     the student's date of birth.
-     */
+     **/
     public String getReservationcategory() {
         return reservationcategory;
     }
@@ -83,7 +83,7 @@ class Student implements Comparable<Student> {
      * Sets the student's reservation category.
      *
      * @param      reserve    reservation.
-     */
+     **/
     public void setReservationcategory(final String reserve) {
         this.reservationcategory = reserve;
     }
@@ -91,7 +91,7 @@ class Student implements Comparable<Student> {
     /**
      * gets the total marks.
      * @return returns the total marks of the student.
-     */
+     **/
     public int getTotalmarks() {
         return totalmarks;
     }
@@ -100,7 +100,7 @@ class Student implements Comparable<Student> {
      * sets the student's total marks.
      *
      * @param      m     totalmarks.
-     */
+     **/
     public void setTotalmarks(final int m) {
         this.totalmarks = m;
     }
@@ -115,7 +115,7 @@ class Student implements Comparable<Student> {
      * @param      m3          Marks in third subject.
      * @param      total        The total.
      * @param      res          The resource.
-     */
+     **/
     Student(final String stuName, final String dateOfBirth,
                    final int m1, final int m2, final int m3, final int total,
                    final String reserve) {
@@ -148,7 +148,7 @@ class Student implements Comparable<Student> {
      * Sets the marks3 to the 3rd subject.
      *
      * @param      m    mark3.
-     */
+     **/
     public void setMarks3(final int m3) {
         this.marks3 = m3;
     }
@@ -157,7 +157,7 @@ class Student implements Comparable<Student> {
      * Gets the marks in subject 2.
      *
      * @return     marks in subject 2.
-     */
+     **/
     public int getMarks2() {
         return marks2;
     }
@@ -166,7 +166,7 @@ class Student implements Comparable<Student> {
      * Sets marks in subject 2.
      *
      * @param      m     set marks2.
-     */
+     **/
     public void setMarks2(final int m2) {
         this.marks2 = m2;
     }
@@ -174,7 +174,7 @@ class Student implements Comparable<Student> {
     /**
      * Gets the marks in subject 1.
      * @return marks in subject 1.
-     */
+     **/
     public int getMarks1() {
         return marks1;
     }
@@ -183,7 +183,7 @@ class Student implements Comparable<Student> {
      * Sets the marks to subject 1.
      *
      * @param      m     marks1.
-     */
+     **/
     public void setMarks1(final int m1) {
         this.marks1 = m1;
     }
