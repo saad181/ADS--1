@@ -182,7 +182,7 @@ class Student implements Comparable<Student> {
     /**
      * Sets the marks to subject 1.
      *
-     * @param      m     marks1.
+     * @param      m1     marks1.
      **/
     public void setMarks1(final int m1) {
         this.marks1 = m1;
