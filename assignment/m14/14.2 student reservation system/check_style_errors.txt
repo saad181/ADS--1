@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:65:8: Unused @param tag for 'b'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:67:35: Expected @param tag for 'dateOfBirth'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:109:8: Unused @param tag for 'Name'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:115:8: Unused @param tag for 'res'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:117:26: Expected @param tag for 'stuName'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:119:33: Expected @param tag for 'reserve'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:148:8: Unused @param tag for 'm'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:150:37: Expected @param tag for 'm3'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:166:8: Unused @param tag for 'm'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:168:37: Expected @param tag for 'm2'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:183:8: Unused @param tag for 'm'. [JavadocMethod]
+[ERROR] F:\MSIT\ADS-1\assignment\m14\14.2 student reservation system\Student.java:185:37: Expected @param tag for 'm1'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 13 errors.
