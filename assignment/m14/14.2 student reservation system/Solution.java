@@ -64,8 +64,8 @@ class Student implements Comparable<Student> {
     /**
      * sets the student's date of birth.
      *
-     * @param      b     [description]
-     */
+     * @param      dateOfBirth   date of birth.
+     **/
     public void setDob(final Date dateOfBirth) {
         this.dob = dateOfBirth;
     }
@@ -82,7 +82,7 @@ class Student implements Comparable<Student> {
     /**
      * Sets the student's reservation category.
      *
-     * @param      reserve    { parameter_description }
+     * @param      reserve    reservation.
      */
     public void setReservationcategory(final String reserve) {
         this.reservationcategory = reserve;
@@ -99,7 +99,7 @@ class Student implements Comparable<Student> {
     /**
      * sets the student's total marks.
      *
-     * @param      m     { parameter_description }
+     * @param      m     totalmarks.
      */
     public void setTotalmarks(final int m) {
         this.totalmarks = m;
@@ -108,13 +108,13 @@ class Student implements Comparable<Student> {
     /**
      * Constructs the object based on the parameters.
      *
-     * @param      Name      Student Name
-     * @param      dateOfBirth  Date of Birth
+     * @param      Name      Student Name.
+     * @param      dateOfBirth  Date of Birth.
      * @param      m1          Marks in first subject.
      * @param      m2          Marks in second subject.
      * @param      m3          Marks in third subject.
-     * @param      total        The total
-     * @param      res          The resource
+     * @param      total        The total.
+     * @param      res          The resource.
      */
     Student(final String stuName, final String dateOfBirth,
                    final int m1, final int m2, final int m3, final int total,
@@ -147,7 +147,7 @@ class Student implements Comparable<Student> {
     /**
      * Sets the marks3 to the 3rd subject.
      *
-     * @param      m     { parameter_description }
+     * @param      m    mark3.
      */
     public void setMarks3(final int m3) {
         this.marks3 = m3;
@@ -165,7 +165,7 @@ class Student implements Comparable<Student> {
     /**
      * Sets marks in subject 2.
      *
-     * @param      m     { parameter_description }
+     * @param      m     set marks2.
      */
     public void setMarks2(final int m2) {
         this.marks2 = m2;
@@ -182,7 +182,7 @@ class Student implements Comparable<Student> {
     /**
      * Sets the marks to subject 1.
      *
-     * @param      m     { parameter_description }
+     * @param      m     marks1.
      */
     public void setMarks1(final int m1) {
         this.marks1 = m1;
@@ -199,7 +199,7 @@ class Student implements Comparable<Student> {
     /**
      * When required the student's name can be updated.
      *
-     * @param      student  The student
+     * @param      student  The student.
      */
     public void setStudentName(final String student) {
         this.studentName = student;
