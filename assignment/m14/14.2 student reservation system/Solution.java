@@ -318,7 +318,7 @@ public final class Solution {
      * @param noBC      Number of BC seats.
      * @param noSC      Number of SC seats.
      * @param noST      Number of ST seats.
-     */
+     **/
     public static void allotment(final Student[] stud,
                                 final int vacancies,
                                 final int noCategory,
