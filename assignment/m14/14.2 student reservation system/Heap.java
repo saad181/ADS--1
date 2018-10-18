@@ -8,15 +8,14 @@ final class Heap {
     private Heap() {
     /**
      * empty constructer.
-     */
+     **/
     }
-
     /**
      * Rearranges the array in ascending order, using the natural order.
      * Time complexity is O(N log N).
      *
      * @param      pq    the array to be sorted
-     */
+     **/
     public static void sort(final Comparable[] pq) {
         int n = pq.length;
         for (int k = n / 2; k >= 1; k--) {
@@ -34,7 +33,7 @@ final class Heap {
      * @param      pq    { parameter_description }
      * @param      k     { int value }
      * @param      n     { int value }
-     */
+     **/
     private static void sink(final Comparable[] pq, final int k, final int n) {
         int l = k;
         while (2 * l <= n) {
@@ -64,7 +63,6 @@ final class Heap {
         final int j) {
         return pq[i - 1].compareTo(pq[j - 1]) < 0;
     }
-
     /**
      * to exchange the values.
      * Time complexity is O(N).

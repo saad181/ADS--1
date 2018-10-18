@@ -178,7 +178,6 @@ class Student implements Comparable<Student> {
     public int getMarks1() {
         return marks1;
     }
-
     /**
      * Sets the marks to subject 1.
      *
