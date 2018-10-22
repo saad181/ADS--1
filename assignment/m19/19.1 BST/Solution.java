@@ -132,15 +132,14 @@ class Book implements Comparable<Book> {
             return 0;
         }
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
+    public String toString() {
+        String m = "";
+        m += this.getname() + ", " + this.getauthor() + ", " + this.getprice();
+        return m;
+    }
 }
-//     /**
-//      * Returns a string representation of the object.
-//      *
-//      * @return     String representation of the object.
-//      */
-//     public String toString() {
-//         String m = "";
-//         m += this.getname() + ", " + this.getauthor() + ", " + this.getprice();
-//         return m;
-//     }
-// }
