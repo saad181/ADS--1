@@ -1,0 +1,78 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+1
+Python, eric, 5000.0
+Hello, Ajay, 200.0
+2
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+null
+null
+Your Output: 
+1
+Python, eric, 5000.0
+Exception in thread "main" java.lang.NullPointerException
+	at BST$Node.access$300(BST.java:7)
+	at BST.min(BST.java:121)
+	at BST.min(BST.java:111)
+	at Solution.main(Solution.java:36)
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+6
+Street, Kiran, 800.0
+Mental, Robert, 1800.0
+null
+5
+Hello, Ajay, 200.0
+7
+Mental, Robert, 1800.0
+IT, Viswas, 400.0
+2
+Your Output: 
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+null
+Hello, Ajay, 200.0
+Hello, Ajay, 200.0
+null
+5
+Hello, Ajay, 200.0
+7
+Hello, Ajay, 200.0
+Exception in thread "main" java.lang.NullPointerException
+	at BST$Node.access$100(BST.java:7)
+	at BST.select(BST.java:270)
+	at Solution.main(Solution.java:39)
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+Harry, JK, 600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+null
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+Anamy, Steave, 1600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+Street, Kiran, 800.0
+null
+Your Output: 
+Harry, JK, 600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+null
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+Anamy, Steave, 1600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+Exception in thread "main" java.lang.NullPointerException
+	at BST$Node.access$400(BST.java:7)
+	at BST.max(BST.java:145)
+	at BST.max(BST.java:135)
+	at Solution.main(Solution.java:33)
+----------------------------------------
