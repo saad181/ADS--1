@@ -335,7 +335,7 @@ public class BST<Key extends Comparable<Key>, Value> {
      * @return     { description_of_the_return_value }
      */
     private Node deleteMax(Node x) {
-        if (x.right != null) {
+        if (x.right == null) {
             return x.left;
         }
         x.right = deleteMax(x.right);
