@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] F:\MSIT\ADS-1\assignment\m20\20.1 BST\Solution.java:146:19: 'if' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 1 errors.

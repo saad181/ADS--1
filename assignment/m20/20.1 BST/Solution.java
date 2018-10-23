@@ -143,7 +143,7 @@ class Book implements Comparable<Book> {
             return -1;
         } else if (this.getauthor().compareTo(that.getauthor()) > 0) {
             return 1;
-        }  else if(this.getprice() > that.getprice()) {
+        }  else if (this.getprice() > that.getprice()) {
             return 1;
         } else if (this.getprice() < that.getprice()) {
             return -1;
