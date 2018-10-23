@@ -102,6 +102,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
     }
     /**
+     *the time complexity is O(logN)
      * created a method min.
      *
      * @return     { description_of_the_return_value }
@@ -125,6 +126,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
     }
     /**
+     *the time complexity is O(logN).
      * created a method max.
      *
      * @return     { description_of_the_return_value }
@@ -148,6 +150,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
     }
     /**
+     * the time complexity is O(logN).
      * created a method floor.
      *
      * @param      key   The key
@@ -162,6 +165,8 @@ public class BST<Key extends Comparable<Key>, Value> {
         return x.key;
     }
     /**
+     * The time complexity is O(logN).
+     * 
      * created a method floor.
      *
      * @param      x     { parameter_description }
@@ -189,6 +194,7 @@ public class BST<Key extends Comparable<Key>, Value> {
          }
     }
     /**
+     * The time complexity is O(logN).
      * created a method ceiling.
      *
      * @param      key   The key
@@ -230,6 +236,7 @@ public class BST<Key extends Comparable<Key>, Value> {
          }
     }
     /**
+     * The time complexity is O(logN).
      * created a method size.
      *
      * @return     { description_of_the_return_value }
@@ -251,6 +258,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         return x.count;
     }
     /**
+     * The time complexity is O(logN).
      * created a method size.
      *
      * @param      k     { parameter_description }
