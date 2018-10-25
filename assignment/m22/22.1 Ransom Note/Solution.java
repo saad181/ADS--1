@@ -122,7 +122,7 @@ public final class Solution {
         int magazinecount = Integer.parseInt(arr[0]);
         int ransomcount = Integer.parseInt(arr[1]);
         String[] magazineWords = scan.nextLine().split(" ");
-        Ransom chain = new Ransom(magazinecount,ransomcount);
+        Ransom chain = new Ransom(magazinecount, ransomcount);
         for (int i = 0; i < magazinecount; i++) {
             chain.put(magazineWords[i]);
         }
