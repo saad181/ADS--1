@@ -46,7 +46,7 @@ class Ransom {
      */
     public void put(final String data1) {
         int i = hash(data1);
-        if (hashing[i] != null) {
+        if (hashing[i] == null) {
             LinkedList list = new LinkedList();
             hashing[i] = list;
             hashing[i].insertAtHead(data1, 1);
