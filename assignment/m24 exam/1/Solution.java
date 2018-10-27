@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 final class Solution{
   /**
-   * default private constructor.
+   * default constructor.
    */
   private Solution() {
     //unused.
@@ -17,10 +17,9 @@ final class Solution{
    */
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
-    LinearProbingHashST<String, Student> hash =
-      new LinearProbingHashST<String, Student>();
+    LinearProbingHashST<String, Student> hash = new LinearProbingHashST<String, Student>();
     int n = Integer.parseInt(scan.nextLine());
-    while(n>0){
+    while (n>0){
       String[] record = scan.nextLine().split(",");
       hash.put(record[0],new Student(record[1],
         Double.parseDouble(record[2])));
@@ -33,7 +32,7 @@ final class Solution{
           while (get < 0) {
               String[] line = scan.nextLine().split(" ");
               if (line[2].equals("2")) {
-                //checks for key in hash table.
+                //used in check key contains in hash table or not.
                   if (hash.contains(line[1])) {
                       System.out.println(hash.get(line[1]).getMarks());
                   }
