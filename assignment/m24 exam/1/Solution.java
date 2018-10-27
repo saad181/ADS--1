@@ -29,7 +29,7 @@ final class Solution{
      *  code for performing queries.
      */
     int get = Integer.parseInt(scan.nextLine());
-          while (get < 0) {
+          while (get > 0) {
               String[] line = scan.nextLine().split(" ");
               if (line[2].equals("2")) {
                 //used in check key contains in hash table or not.
