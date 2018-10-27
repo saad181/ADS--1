@@ -26,13 +26,14 @@ class Student {
     public Double getMarks() {
         return marks;
     }
-    /**
-     * @param studentName name of student.
-     * @param total total marks.
-     */
-    Student( final String studentName, final Double totalMarks) {
+   /**
+    * Constructs the object.
+    *
+    * @param      studentName  The student name
+    * @param      totalMarks   The total marks
+    */
+    Student (final String studentName, final Double totalMarks) {
         this.name = studentName;
         this.marks = totalMarks;
     }
-
 }
