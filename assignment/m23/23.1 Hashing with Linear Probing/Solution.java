@@ -70,7 +70,7 @@ class LinearProbing {
      * @return hash value
      */
     public int hash(final String string) {
-        return (((CAPACITY + CAPACITY + 2 + 1) * string.hashCode()) % arraylength);
+      return (((CAPACITY + CAPACITY + 2 + 1) * string.hashCode()) % arraylength);
     }
     /**
      *resizingthe arrays.
