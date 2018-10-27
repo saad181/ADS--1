@@ -129,7 +129,7 @@ class LinearProbing {
       *whole array.
      * @return string contains the key value pairs.
      */
-    public String display(){
+    public String display() {
         if (size == 0) {
             return "{}";
         }
