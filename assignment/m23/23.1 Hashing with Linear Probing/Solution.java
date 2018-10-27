@@ -100,7 +100,7 @@ class LinearProbing {
      */
     public Integer get(final String string) {
         int index;
-        for (index = hash(string); alphabet[index] == null;
+        for (index = hash(string); alphabet[index] != null;
                 index = (index + 1) % arraylength) {
             if (alphabet[index].equals(string)) {
                 //      System.out.println(value[index]);
