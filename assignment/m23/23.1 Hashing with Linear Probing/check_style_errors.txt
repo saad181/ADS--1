@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] F:\MSIT\ADS-1\assignment\m23\23.1 Hashing with Linear Probing\Solution.java:73: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] F:\MSIT\ADS-1\assignment\m23\23.1 Hashing with Linear Probing\Solution.java:132:28: '{' is not preceded with whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 2 errors.
