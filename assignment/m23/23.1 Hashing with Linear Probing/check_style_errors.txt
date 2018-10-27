@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] F:\MSIT\ADS-1\assignment\m23\23.1 Hashing with Linear Probing\Solution.java:73: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 1 errors.
