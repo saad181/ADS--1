@@ -32,7 +32,7 @@ class Student {
     * @param      studentName  The student name
     * @param      totalMarks   The total marks
     */
-    Student (final String studentName, final Double totalMarks) {
+    Student(final String studentName, final Double totalMarks) {
         this.name = studentName;
         this.marks = totalMarks;
     }
