@@ -5,9 +5,7 @@ class Student {
     /**
      * name of the student.
      */
-    
     private String name;
-    // String rollNumber;
     /**
      *marks obtained by student.
      */
@@ -20,8 +18,6 @@ class Student {
     public String getName() {
         return name;
     }
-
-    
     /**
      * returns total marks.
      * time complexity is O(1).
@@ -36,7 +32,6 @@ class Student {
      */
     Student( final String studentName, final Double totalMarks) {
         this.name = studentName;
-        
         this.marks = totalMarks;
     }
 
