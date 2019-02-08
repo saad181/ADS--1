@@ -98,6 +98,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 22 errors.
 Starting audit...
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
@@ -105,14 +106,17 @@ Starting audit...
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:6:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:12: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:28:19: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:28:27: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:29: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:18: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:25:45: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:34:10: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:34:12: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:38: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 17 errors.
 Starting audit...
 Checkstyle ends with 1 errors.
 Starting audit...
@@ -136,19 +140,19 @@ Starting audit...
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:22:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:23: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:25:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:25:30: Parameter that should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:29: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:30:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:38:35: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:39:33: '{' at column 5 should be on the previous line. [LeftCurly]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:39:33: '{' at column 5 should have line break after. [LeftCurly]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:39:34: 'if' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:39:34: '{' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:43: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:43:33: '}' at column 6 should be alone on a line. [RightCurly]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:43:34: '}' at column 7 should be on a new line. [RightCurly]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:43:34: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:43:34: '}' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:25:30: Parameter other should be final. [FinalParameters]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:35: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:36:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:44:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:33: '{' at column 5 should have line break after. [LeftCurly]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:34: 'if' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:34: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:49: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:49:33: '}' at column 6 should be alone on a line. [RightCurly]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:49:34: '}' at column 7 should be on a new line. [RightCurly]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:49:34: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:49:34: '}' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:51: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 32 errors.

@@ -6,28 +6,37 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
-		BinaryST<Student, Double> bstobj = new BinaryST();
+		HashMap<Student, Double> data = new HashMap<Student, Double>();
 		for (int i = 0; i < n; i++) {
 			String[] inp = sc.nextLine().split(",");
-			bstobj.put(new Student(inp[1], Double.parseDouble(inp[2]),
+			data.put(new Student(inp[1], Double.parseDouble(inp[2]),
                 Integer.parseInt(inp[0])),
                 Double.parseDouble(inp[2]));
 		}
-		int queries = Integer.parseInt(sc.nextLine());
-		Iterable<Student> keys = bstobj.keys();
-		for (int i = 0; i < queries; i++) {
+		int q = Integer.parseInt(sc.nextLine());
+		//ArrayList<Student> obj = new ArrayList<Student>();
+		
+		for (int i = 0; i < q; i++) {
+			Iterator it = data.entrySet().iterator();
 			double inp = Double.parseDouble(sc.nextLine());
-			boolean check  = false;
-			for (Student s: keys) {
-			
-			if (bstobj.get(s) == inp) {
-				check = true;
-				System.out.println(s);
-			}			
-		}
-		if(!check){
-			System.out.println("this marks are not awarded to student");
-		 }
-		}
-	}
-	}
+			int c = 0;
+    while (it.hasNext()) {
+    	
+    	        Map.Entry pair = (Map.Entry)it.next();
+        if (pair.getValue().equals(inp)) {
+        	System.out.println(pair.getKey());
+        	
+        	c++;
+        }
+         
+    }
+
+    if (c==0) {
+    	System.out.println("This marks are not awarded to any student");
+    }
+    }
+		
+}
+   }
+
+    

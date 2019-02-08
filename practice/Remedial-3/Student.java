@@ -22,23 +22,29 @@ class Student implements Comparable<Student> {
 	public String toString() {
 		return this.roll + "," + this.name + "," + this.marks;	
 	}
-	public int compareTo(Student that) {
-		if (this.marks > that.marks) {
+	public int compareTo(Student other) {
+		// if (this.name.compareTo(other.name) < 0) {
+		// 		return 1;
+		// }
+		// if (this.name.compareTo(other.name) > 0) {
+		// 		return 0;
+		// }
+		if (this.marks > other.marks) {
 			return 1;
-		} else if (this.marks < that.marks) {
+		} else if (this.marks < other.marks) {
 			return -1;			
 			}
-			else if (this.marks == that.marks) {
-				if (this.name.compareTo(that.name) > 0) {
+			else if (this.marks == other.marks) {
+				if (this.name.compareTo(other.name) > 0) {
 					return 1;
 				}
-				if (this.name.compareTo(that.name) < 0) {
+				if (this.name.compareTo(other.name) < 0) {
 					return -1;
 				}
-				if(this.name.compareTo(that.name) == 0)
-				{if (this.roll < that.roll) {
+				if(this.name.compareTo(other.name) == 0)
+				{if (this.roll > other.roll) {
  					return 1;
- 				} else if (this.roll > that.roll) {
+ 				} else if (this.roll < other.roll) {
  					return -1;
  				}} 
 			}
