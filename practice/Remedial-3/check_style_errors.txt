@@ -143,7 +143,7 @@ Starting audit...
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:25:30: Parameter other should be final. [FinalParameters]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:35: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:36:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:44:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:44:35: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:33: '{' at column 5 should be on the previous line. [LeftCurly]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:33: '{' at column 5 should have line break after. [LeftCurly]
 [ERROR] F:\MSIT\ADS-1\practice\Remedial-3\Student.java:45:34: 'if' is not preceded with whitespace. [WhitespaceAround]
